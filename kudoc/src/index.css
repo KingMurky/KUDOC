@@ -1,0 +1,63 @@
+body {
+  margin:0px;
+}
+
+.HeaderBar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #862633;
+  color: white;
+  font-size: xx-large;
+  padding:8px 0px 10px 25px;
+}
+
+.topNaviBoxContainer {
+  height:500px;
+  margin:30px;
+  float: right;
+}
+
+
+.topNaviBox1 {
+  background-color: black;
+  width: 100px;
+  height:100px;
+  transition: all 0.35s ease;
+  border-radius: 20px 20px 0px 0px;
+  line-height: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topNaviBox1:hover{
+  width: 200px;
+  transition: all 0.35s ease;
+  border-radius: 20px 20px 20px 0px;
+  color:white;
+  line-height: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topNaviBox2 {
+  background-color: black;
+  width: 100px;
+  height:30px;
+  color:white;
+  transition: all 0.35s ease;
+  border-radius: 0px 0px 20px 20px;
+  text-align: center;
+  transition: all 0.35s ease;
+  line-height: 100px;
+  text-decoration: none;
+}
+
+.topNaviBox2:hover {
+  height: 100px;
+  width: 100px;
+  transition: all 0.35s ease;
+  color:white;
+  line-height: 100px;
+  text-decoration: none;
+}

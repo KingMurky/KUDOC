@@ -1,5 +1,7 @@
 import React from 'react';
+import Footer from './Footer';
 import Header from "./Header";
+import MyPageSection from './MyPageSection';
 import TopNavBar from "./TopNavBar";
 
 function Mypage() {
@@ -7,7 +9,8 @@ function Mypage() {
         <div>
             <Header></Header>
             <TopNavBar></TopNavBar>
-            마이페이지
+            <MyPageSection></MyPageSection>
+            <Footer></Footer>
         </div>
     );
 }

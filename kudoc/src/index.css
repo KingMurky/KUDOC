@@ -18,46 +18,88 @@ body {
   float: right;
 }
 
+.bottomNaviBoxContainer {
+  height:500px;
+  margin:30px;
+  float: left;
+}
+
 
 .topNaviBox1 {
   background-color: black;
+  color:black;
   width: 100px;
   height:100px;
+  margin-right: 25px;
   transition: all 0.35s ease;
-  border-radius: 20px 20px 0px 0px;
-  line-height: 100px;
+  border-radius: 10px 10px 10px 10px;
+  line-height: 50px;
   text-align: center;
   text-decoration: none;
+  position: fixed;
+  right:0;
 }
+
+.bottomNaviBox1 {
+  background-color: black;
+  color:black;
+  width: 100px;
+  height:100px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  transition: all 0.35s ease;
+  border-radius: 10px 10px 10px 10px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  left:0;
+  bottom:0;
+
+}
+
+
+.toMypage { 
+  visibility: hidden;
+}
+
 
 .topNaviBox1:hover{
   width: 200px;
+  height: 200px;
   transition: all 0.35s ease;
-  border-radius: 20px 20px 20px 0px;
+  border-radius: 10px 10px 10px 10px;
   color:white;
   line-height: 100px;
   text-align: center;
   text-decoration: none;
+  visibility: visible;
 }
 
-.topNaviBox2 {
-  background-color: black;
-  width: 100px;
-  height:30px;
-  color:white;
+.topNaviBox1:hover .toMypage {
+  visibility: visible;
+  color: white;
+  text-decoration: none;
   transition: all 0.35s ease;
-  border-radius: 0px 0px 20px 20px;
+  
+}
+
+.bottomNaviBox1:hover{
+  width: 200px;
+  height: 200px;
+  transition: all 0.35s ease;
+  border-radius: 10px 10px 10px 10px;
+  color:white;
+  line-height: 100px;
   text-align: center;
-  transition: all 0.35s ease;
-  line-height: 100px;
   text-decoration: none;
+  visibility: visible;
 }
 
-.topNaviBox2:hover {
-  height: 100px;
-  width: 100px;
-  transition: all 0.35s ease;
-  color:white;
-  line-height: 100px;
+.bottomNaviBox1:hover .toMypage {
+  visibility: visible;
+  color: white;
   text-decoration: none;
+  transition: all 0.35s ease;
+  
 }

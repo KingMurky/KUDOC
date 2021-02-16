@@ -2,7 +2,7 @@ function MyPageSection() {
     return (
         <section>
             <div>
-            마이페이지
+                자취
             </div>
         </section>
     )

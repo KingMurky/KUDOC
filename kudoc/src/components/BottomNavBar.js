@@ -7,8 +7,8 @@ function BottomNavBar() {
       <nav>
         <div className="bottomNaviBoxContainer">
           <div className="bottomNaviBox1">
-            <div className="toSettings">설정</div>
-            <Link className="toMypage" to="/mypage">자취</Link>
+            <Link className="toSettings" to="/settings">설정</Link>
+            <div><Link className="toMypage" to="/mypage">자취</Link></div>
           </div>
         </div>
       </nav>

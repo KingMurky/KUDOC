@@ -8,8 +8,8 @@ function TopNavBar() {
       <nav>
         <div className="topNaviBoxContainer">
           <div className="topNaviBox1">
-            <div className="toSettings">로그인</div>
-            <Link className="" to="">회원가입</Link>
+            <div className="tologin">로그인</div>
+            <Link className="tosignup" to="">회원가입</Link>
           </div>
         </div>
       </nav>

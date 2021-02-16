@@ -1,20 +1,19 @@
-import React from 'react';
-import Footer from './Footer';
 import Header from "./Header";
-import MyPageSection from './MyPageSection';
 import TopNavBar from "./TopNavBar";
+import Footer from "./Footer";
+import settingsPageSection from "./settingsPageSection";
 import BottomNavBar from "./BottomNavBar";
 
-function Mypage() {
+function Settingspage() {
     return(
         <div>
             <Header></Header>
             <TopNavBar></TopNavBar>
-            <MyPageSection></MyPageSection>
+            <settingsPageSection></settingsPageSection>
             <BottomNavBar></BottomNavBar>
             <Footer></Footer>
         </div>
     );
 }
 
-export default Mypage
+export default Settingspage

@@ -1,7 +1,8 @@
+import React from 'react';
 import Header from "./Header";
 import TopNavBar from "./TopNavBar";
 import Footer from "./Footer";
-import settingsPageSection from "./settingsPageSection";
+import SettingsPageSection from "./SettingsPageSection";
 import BottomNavBar from "./BottomNavBar";
 
 function Settingspage() {
@@ -9,7 +10,7 @@ function Settingspage() {
         <div>
             <Header></Header>
             <TopNavBar></TopNavBar>
-            <settingsPageSection></settingsPageSection>
+            <SettingsPageSection></SettingsPageSection>
             <BottomNavBar></BottomNavBar>
             <Footer></Footer>
         </div>

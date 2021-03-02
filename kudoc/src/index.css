@@ -1,5 +1,6 @@
 body {
   margin:0px;
+  height:100%;
 }
 
 .HeaderBar {
@@ -38,6 +39,7 @@ body {
   text-decoration: none;
   position: fixed;
   right:0;
+  z-index: 1;
 }
 
 .bottomNaviBox1 {
@@ -46,7 +48,7 @@ body {
   width: 100px;
   height:100px;
   margin-left: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 130px;
   transition: all 0.35s ease;
   border-radius: 10px 10px 10px 10px;
   line-height: 50px;
@@ -55,7 +57,7 @@ body {
   position: fixed;
   left:0;
   bottom:0;
-
+  z-index: 1;
 }
 
 .toMypage { 
